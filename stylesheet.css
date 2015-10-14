@@ -65,7 +65,7 @@ a:hover {
 #profile {
     position: relative;
     margin-top: 60px;
-    margin-right: 125px;
+    margin-left: 0px;
     background-color: #c2d4d8;
     border-radius: 5px;
     float: right;
