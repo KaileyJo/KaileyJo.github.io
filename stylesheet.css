@@ -25,8 +25,8 @@ li {
     z-index: 1;
     position: fixed;
     height: 70px;
-    margin: -20px 10px 10px 0px;
-    width: 100%;
+    margin: -20px 10px 10px 125px;
+    width: 1190px;
     background-color: #b5a397;
     border-radius: 5px;
 }
@@ -39,11 +39,17 @@ h1 {
     position: relative;
     margin-top: 60px;
     margin-bottom: 10px;
+    margin-left: 125px;
+    margin-right: 10px;
     background-color: #a8b6bf;
     border-radius: 5px;
     float: left;
-    width: 55%;
+    width: 680px;
     height: 368px;
+}
+
+#education p {
+    margin-bottom: -5px;
 }
 
 a {
@@ -59,10 +65,11 @@ a:hover {
 #profile {
     position: relative;
     margin-top: 60px;
+    margin-right: 125px;
     background-color: #c2d4d8;
     border-radius: 5px;
     float: right;
-    width: 44%;
+    width: 500px;
     height: 368px;
 }
 
@@ -79,9 +86,11 @@ img {
 #professional {
     position: relative;
     border-radius: 5px;
+    margin-left: 125px;
     clear: both;
     background-color: #c9d8c5;
     padding-top: 1px;
+    width: 1190px;
 }
 
 #professional li:nth-child(5) {
@@ -91,8 +100,8 @@ img {
 #footer {
     position: relative;
     height: 50px;
-    margin: 10px 10px -20px 0px;
-    width: 100%;
+    margin: 10px 10px -20px 125px;
+    width: 1190;
     background-color: #b5a397;
     border-radius: 5px;
 }
