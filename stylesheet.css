@@ -38,10 +38,12 @@ h1 {
 #education {
     position: relative;
     margin-top: 60px;
+    margin-bottom: 10px;
     background-color: #a8b6bf;
     border-radius: 5px;
     float: left;
     width: 55%;
+    height: 368px;
 }
 
 a {
@@ -61,6 +63,7 @@ a:hover {
     border-radius: 5px;
     float: right;
     width: 44%;
+    height: 368px;
 }
 
 img {
@@ -75,10 +78,14 @@ img {
 
 #professional {
     position: relative;
-    border-top: #f6f1ed solid 10px;
     border-radius: 5px;
     clear: both;
     background-color: #c9d8c5;
+    padding-top: 1px;
+}
+
+#professional li:nth-child(5) {
+    padding-bottom: 15px;
 }
 
 #footer {
@@ -91,6 +98,6 @@ img {
 }
 
 #contactinfo {
-    padding-top: 15px;
-    margin-left: 20px;
+    padding-top: 17px;
+    margin-left: 5px;
 }
