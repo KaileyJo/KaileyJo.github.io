@@ -29,6 +29,11 @@ h3 {
     margin-left: 40px;
 }
 
+.center {
+    width: 1060px;
+    margin: auto;
+}
+
 header {
     z-index: 1;
     position: fixed;
@@ -37,11 +42,6 @@ header {
     width: 1060px;
     background-color: #b5a397;
     border-radius: 5px;
-}
-
-.center {
-    width: 1060px;
-    margin: auto;
 }
 
 #education {
