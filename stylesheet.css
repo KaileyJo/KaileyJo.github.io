@@ -11,13 +11,13 @@ body {
     margin: 10px;
 }
 
+h2, h3, p, ul, li {
+    margin: 5px 10px 5px 20px;
+}
+
 h1 {
     padding: 15px;
     margin-left: 25px;
-}
-
-h2, h3, p, ul, li {
-    margin: 5px 10px 5px 20px;
 }
 
 h2 {
@@ -29,23 +29,6 @@ h3 {
     margin-left: 40px;
 }
 
-p {
-    
-}
-
-li {
-    
-}
-
-.center h2 {
-    
-}
-
-.center {
-    width: 1060px;
-    margin: auto;
-}
-
 header {
     z-index: 1;
     position: fixed;
@@ -54,6 +37,11 @@ header {
     width: 1060px;
     background-color: #b5a397;
     border-radius: 5px;
+}
+
+.center {
+    width: 1060px;
+    margin: auto;
 }
 
 #education {
@@ -128,10 +116,6 @@ main:hover {
     background-color: #b8c7b4;
 }
 
-main li:nth-child(5) {
-    padding-bottom: 15px;
-}
-
 main h2 {
     padding-top: 10px;
 }
@@ -142,8 +126,23 @@ main h3 {
     padding-top: 15px;
 }
 
+.date {
+    float: right;
+    padding-right: 50px;
+    margin: 5px 0 10px 0;
+}
+
+.place {
+    margin: 5px 0 10px 40px;
+    float: left;
+}
+
 main li {
     width: 600px;
+}
+
+main li:nth-child(5) {
+    padding-bottom: 15px;
 }
 
 footer {
@@ -158,17 +157,6 @@ footer {
 #contactinfo {
     margin-left: 40px;
     padding-top: 14px;
-}
-
-.date {
-    float: right;
-    padding-right: 50px;
-    margin: 5px 0 10px 0;
-}
-
-.place {
-    margin: 5px 0 10px 40px;
-    float: left;
 }
 
 
