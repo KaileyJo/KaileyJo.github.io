@@ -1,3 +1,9 @@
+html, body, h1, h2, h3, h4, ul, ol, li, p, a {
+  padding: 0;
+  border: 0;
+  margin: 0;
+}
+
 body {
     background-color: #f6f1ed;
     color: #30231d;
@@ -5,48 +11,22 @@ body {
     margin: 10px;
 }
 
-h2 {
-    padding-left: 20px;
-}
-
-h3 {
-    padding-left: 20px;
-}
-
-p {
-    padding-left: 20px;
-}
-
-li {
-    padding-right: 10px;
-}
-
-.center h2 {
-    padding-bottom: -10px;
-    margin-bottom: -10px;
-    margin-top: 10px
-}
-
-#professional ul {
-    clear: both;
-    margin-top: -5px;
-}
-
-#header {
-    z-index: 1;
-    position: fixed;
-    height: 70px;
-    margin-top: -20px;
-    margin-right: 10px; 
-    margin-bottom: 10px;
-    margin-left: 0px;
-    width: 1060px;
-    background-color: #b5a397;
-    border-radius: 5px;
+h2, h3, p, ul, li {
+    margin: 5px 10px 5px 20px;
 }
 
 h1 {
-    margin: 20px;
+    padding: 15px;
+    margin-left: 25px;
+}
+
+h2 {
+    margin-top: 15px;
+    margin-left: 40px;
+}
+
+h3 {
+    margin-left: 40px;
 }
 
 .center {
@@ -54,19 +34,33 @@ h1 {
     margin: auto;
 }
 
+header {
+    z-index: 1;
+    position: fixed;
+    height: 70px;
+    margin: -20px 10px 10px 0;
+    width: 1060px;
+    background-color: #b5a397;
+    border-radius: 5px;
+}
+
 #education {
     position: relative;
-    margin-top: 60px;
-    margin-bottom: 10px;
+    margin: 60px 0 10px 0;
     background-color: #a8b6bf;
     border-radius: 5px;
     float: left;
     width: 550px;
     height: 368px;
+    transition: 0.5s ease-in;
+}
+
+#education:hover {
+    background-color: #97a5ae;
 }
 
 #education p {
-    margin-bottom: -5px;
+    margin-left: 40px;
 }
 
 a {
@@ -82,13 +76,17 @@ a:hover {
 
 #profile {
     position: relative;
-    margin-top: 60px;
-    margin-bottom: 10px;
+    margin: 60px 0 10px 0;
     background-color: #c2d4d8;
     border-radius: 5px;
     float: right;
     width: 500px;
     height: 368px;
+    transition: 0.5s ease-in;
+}
+
+#profile:hover {
+    background-color: #b1c3c7;
 }
 
 img {
@@ -96,56 +94,69 @@ img {
     width: 235px;
     border-radius: 5px;
     border: 5px solid #6a5750;
-    margin: 10px;
-    margin-top: -20px;
+    margin: -40px 10px 10px 10px;
     float: right;
 }
 
-#professional {
+main ul {
+    clear: both;
+}
+
+main {
     position: relative;
     border-radius: 5px;
     margin: auto;
     clear: both;
     background-color: #c9d8c5;
-    padding-top: 1px;
     width: 1060px;
+    transition: 0.5s ease-in;
 }
 
-#professional li:nth-child(5) {
+main:hover {
+    background-color: #b8c7b4;
+}
+
+main h2 {
+    padding-top: 10px;
+}
+
+main h3 {
+    margin: 5px 50px 0 40px;
+    border-bottom: 1px dotted #6a5750;
+    padding-top: 15px;
+}
+
+.date {
+    float: right;
+    padding-right: 50px;
+    margin: 5px 0 10px 0;
+}
+
+.place {
+    margin: 5px 0 10px 40px;
+    float: left;
+}
+
+main li {
+    width: 600px;
+}
+
+main li:nth-child(5) {
     padding-bottom: 15px;
 }
 
-#footer {
+footer {
     position: relative;
     height: 50px;
-    margin: auto;
+    margin: 10px auto 10px auto;
     width: 1060px;
     background-color: #b5a397;
     border-radius: 5px;
 }
 
 #contactinfo {
-    padding-top: 17px;
-    margin-left: 5px;
+    margin-left: 40px;
+    padding-top: 14px;
 }
 
-.date {
-    float: right;
-    padding-right: 50px;
-    margin-top: 5px;
-    margin-bottom: 10px;
-}
 
-.place {
-    margin-top: 5px;
-    margin-bottom: 10px;
-    float: left;
-}
-
-#professional h3 {
-    margin-bottom: 5px;
-}
-
-#professional li {
-    width: 600px;
-}
